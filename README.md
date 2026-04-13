@@ -1,11 +1,31 @@
-# DS4002 Data Science Projects - Template
+**DS 4002, Spring 2026** <br>
+**Freenor's Fourth Years**: Abby Goss, Rohan Kohli, Christina Barton <br>
+**Group Leader:** Abby Goss
 
-This repository serves as a template for DS4002 student research project repositories. When creating your project repository, you may use this template to establish the required folder structure.
+# Project 2: Predicting California Wildfires Using Time Series Weather Data and Machine Learning
+## Software and Platform
+- Utilized Google Colab's Python notebook to complete the code
+- Must install
+- This code runs on either Windows or Mac systems
+## Documentation Map
+Main Branch Folders
+- Data
+  - 
+- Output
+- Scripts
+  - EDA.ipynb (exploratory analysis on cleaned data)
+  - Model.ipynb (data cleaning, modeling, and evaluation)
+## Analysis Instructions
+Cleaning the data
+- 
 
-Once your repository is created, replace this README.md file with your project-specific README, following the specifications provided on Canvas.
+Modeling Steps
+1. 
 
-The purpose and expected contents of the scripts, output, and data folders are described in the MI3 rubric (available on Canvas).
+   
+## Model Evaluation
 
-Remember to include a LICENSE.md file in your repository.
+1. 
 
-**Before submitting, review your repository to ensure its organization and contents meet the project specifications. You will submit the URL of your repository on Canvas.**
+## References <br>
+[1] 
