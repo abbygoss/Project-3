@@ -15,18 +15,18 @@ The goal of this project is to explore whether a convolutional neural network ca
 ## Documentation Map
 Main Branch Folders
 - Data
-  - Link to Datasets (RealWaste/CleanedDataset/ResizedDataset/SplitDataset)
+  - Link to dataset
   - Data Appendix 
 - Scripts
   - EDA Project 3.ipynb (exploratory data analysis)
-  - MI3_Project_3.ipynb (preprocessing, model training, and evaluation)
+  - Model.ipynb (preprocessing, model training, and evaluation)
 - Output
 
 ## Analysis Instructions
 
 Preparing the Data
 
-- Download the origional dataset and upload to your drive in google
+- Download the original dataset using the link in the "Dataset Links" file and upload to your drive in google
 - Mount your Google Drive in Colab and update the data_dir, base_dir, and resized_base_dir path variables to point to wherever you stored the RealWaste folder on your Drive.
 - The original dataset has nine material class folders. Remap these into two binary categories: Recyclable (Cardboard, Paper, Glass, Metal) and Non-Recyclable (Miscellaneous Trash, Textile Trash, Food Organics, Vegetation) by copying images into new Recyclable/ and Non_Recyclable/ subfolders. The Plastic class is excluded entirely.
 - Resize all images to 224×224 pixels using PIL and save them to a new ResizedDataset/ folder. This standardizes input dimensions for the CNN.
