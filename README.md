@@ -21,8 +21,8 @@ Main Branch Folders
   - EDA Project 3.ipynb (exploratory data analysis)
   - Model.ipynb (preprocessing, model training, and evaluation)
 - Output
+  - EDA Chart (Waste Category Distribution)
   - Confusion Matrix
-  - Metrics? (edit)
 
 ## Analysis Instructions
 
