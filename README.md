@@ -21,7 +21,6 @@ Main Branch Folders
   - EDA Project 3.ipynb (exploratory data analysis)
   - MI3_Project_3.ipynb (preprocessing, model training, and evaluation)
 - Output
-  - <fill in>
 
 ## Analysis Instructions
 
