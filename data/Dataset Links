@@ -1,0 +1,11 @@
+https://drive.google.com/drive/folders/1ZkzoBHO8r6cI_FcxXOnbVhGEZrvp6yi0?usp=drive_link 
+This link directs to the original data folder with 9 folders of different types of waste photos within.
+
+https://drive.google.com/drive/folders/1AOEb-USn1zShRMGp3f7LxfVmCULr1ELy?usp=drive_link
+This is the link to the cleaned image dataset, with two folders of "Recyclable" and "Non-Recyclable" as well as sub-folders for the specific waste categories. Plastic was removed.
+
+https://drive.google.com/drive/folders/1MUXW7cSEQOEwziWKv0XAEa7J_Fi9I0jl?usp=drive_link
+This is the link to the resized image dataset (same as cleaned dataset but images resized to 224x224)
+
+https://drive.google.com/drive/folders/1KIVXCTJAo5OKwvv-5Vxld9IslYp00KCB?usp=drive_link
+This is the link to the split image dataset (categorized into train, validation, and test splits)
