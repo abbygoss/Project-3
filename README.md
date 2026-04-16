@@ -42,3 +42,9 @@ Modeling Steps
 4. Evaluate the trained model on the held-out test set. Generate predictions by taking the argmax of the model's output logits, then compute accuracy, precision, recall, and F1 score using a classification report.
 5. Plot a confusion matrix heatmap showing true vs. predicted labels for Recyclable and Non-Recyclable classes to visualize where the model makes errors.
 6. Repeat steps 2–5 using a pretrained MobileNetV2 instead of the baseline CNN. Load the pretrained weights, replace the final classifier layer with a 2-class linear layer, and train using the same optimizer settings and early stopping criteria. Compare the accuracy and F1 scores of the baseline CNN vs. MobileNetV2 to assess whether transfer learning improves classification performance on the RealWaste dataset.
+
+## References 
+[1] “UCI Machine Learning Repository,” Uci.edu, 2023. https://archive.ics.uci.edu/dataset/908/realwaste
+[2] Environmental Protection Agency, “National Overview: Facts and Figures on Materials, Wastes and Recycling | US EPA,” United States Environmental Protection Agency, Nov. 08, 2024. https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials
+[3] Z. Keita, “An Introduction to Convolutional Neural Networks (CNNs),” Datacamp, Nov. 14, 2023. https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns
+
