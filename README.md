@@ -44,7 +44,7 @@ Modeling Steps
 6. Repeat steps 2–5 using a pretrained MobileNetV2 instead of the baseline CNN. Load the pretrained weights, replace the final classifier layer with a 2-class linear layer, and train using the same optimizer settings and early stopping criteria. Compare the accuracy and F1 scores of the baseline CNN vs. MobileNetV2 to assess whether transfer learning improves classification performance on the RealWaste dataset.
 
 ## References 
-[1] “UCI Machine Learning Repository,” Uci.edu, 2023. https://archive.ics.uci.edu/dataset/908/realwaste
-[2] Environmental Protection Agency, “National Overview: Facts and Figures on Materials, Wastes and Recycling | US EPA,” United States Environmental Protection Agency, Nov. 08, 2024. https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials
+[1] “UCI Machine Learning Repository,” Uci.edu, 2023. https://archive.ics.uci.edu/dataset/908/realwaste <br>
+[2] Environmental Protection Agency, “National Overview: Facts and Figures on Materials, Wastes and Recycling | US EPA,” United States Environmental Protection Agency, Nov. 08, 2024. https://www.epa.gov/facts-and-figures-about-materials-waste-and-recycling/national-overview-facts-and-figures-materials <br>
 [3] Z. Keita, “An Introduction to Convolutional Neural Networks (CNNs),” Datacamp, Nov. 14, 2023. https://www.datacamp.com/tutorial/introduction-to-convolutional-neural-networks-cnns
 
