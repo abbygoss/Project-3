@@ -1,5 +1,4 @@
-### This code displays the model building process for a classifier that
-### can determine whether or not a photo object is recyclable.
+# This code displays the model building process for a classifier that can determine whether or not a photo object is recyclable.
 
 # Imports
 import os
@@ -21,7 +20,7 @@ from torchvision import datasets, models, transforms
 from google.colab import drive
 drive.mount('/content/drive')
 
-base_dir         = "/content/drive/MyDrive/#3 - Data Science Project/RealWaste"
+base_dir         = "/content/drive/MyDrive/#3 - Data Science Project/RealWaste" # can update accordingly depending on your file path
 new_base_dir     = "/content/drive/MyDrive/#3 - Data Science Project/CleanedDataset"
 resized_base_dir = "/content/drive/MyDrive/#3 - Data Science Project/ResizedDataset"
 split_base       = "/content/drive/MyDrive/#3 - Data Science Project/SplitDataset"
