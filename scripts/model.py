@@ -1,5 +1,5 @@
-# This code displays the model building process for a classifier that
-# can determine whether or not a photo object is recyclable.
+### This code displays the model building process for a classifier that
+### can determine whether or not a photo object is recyclable.
 
 # Imports
 import os
