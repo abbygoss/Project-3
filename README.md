@@ -41,7 +41,7 @@ Preparing the Data
 Modeling Steps
 
 1. Define separate image transforms for training and evaluation. For the training set, apply random horizontal flips, vertical flips, and small rotations as data augmentation to help the model generalize. For validation and test sets, apply only normalization using ImageNet mean and standard deviation values. Wrap each split in a PyTorch DataLoader with a batch size of 32, and set shuffle=True for the training loader only.
-2. Define the baseline CNN architecture: two convolutional layers (16 and 32 filters) each followed by ReLU activation and max pooling, then a fully connected layer of 128 units, and a final output layer with 2 classes. This is a lightweight model trained from scratch to serve as a performance baseline.
+2. Define a Baseline CNN using three convolutional blocks (filters: 32, 64, 128) with BatchNorm2d, ReLU, and Dropout2d. Use AdaptiveAvgPool2d and a final classifier head with a 256-unit hidden layer.
 3. Train the baseline CNN for up to 10 epochs using the Adam optimizer (learning rate 0.001) and cross-entropy loss. After each epoch, compute validation loss. If validation loss does not improve for 3 consecutive epochs, stop training early to prevent overfitting.
 4. Evaluate the trained model on the held-out test set. Generate predictions by taking the argmax of the model's output logits, then compute accuracy, precision, recall, and F1 score using a classification report.
 5. Plot a confusion matrix heatmap showing true vs. predicted labels for Recyclable and Non-Recyclable classes to visualize where the model makes errors.
