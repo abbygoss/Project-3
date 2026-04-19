@@ -36,7 +36,7 @@ Preparing the Data
 - Mount your Google Drive in Colab and update the data_dir, base_dir, and resized_base_dir path variables to point to wherever you stored the RealWaste folder on your Drive.
 - The original dataset has nine material class folders. Remap these into two binary categories: Recyclable (Cardboard, Paper, Glass, Metal) and Non-Recyclable (Miscellaneous Trash, Textile Trash, Food Organics, Vegetation) by copying images into new Recyclable/ and Non_Recyclable/ subfolders. The Plastic class is excluded entirely.
 - Resize all images to 224×224 pixels using PIL and save them to a new ResizedDataset/ folder. This standardizes input dimensions for the CNN.
-- Shuffle the resized images randomly and split them into training (80%), validation (10%), and test (10%) sets, saving each split into its own subfolder under SplitDataset/. To ensure a reproducible split, add random.seed(42) before the shuffle call.
+- Shuffle the resized images randomly and split them into training (80%), validation (10%), and test (10%) sets, saving each split into its own subfolder under SplitDataset/. 
 
 Modeling Steps
 
