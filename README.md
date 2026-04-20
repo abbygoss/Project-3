@@ -8,7 +8,7 @@
 The goal of this project is to explore whether a convolutional neural network can accurately determine whether a piece of waste is recyclable or non-recyclable based on images from the RealWaste dataset. We build a binary image classifier that predicts Recyclable vs. Non-Recyclable from real-world landfill images. We first build a baseline custom CNN, then compare it against transfer learning from a pretrained MobileNetV2. Although the original dataset has nine material classes, we converted it into a binary target to align with the practical goal of automated waste sorting. Model performance is evaluated using accuracy and F1 score.
 
 ## Software and Platform
-- Used Google Colab's Python notebook to complete the code
+- Used Google Colab's Python notebook and Jupyter Notebooks to complete the code
 - Utilizes torch, torchvision, Pillow, scikit-learn, matplotlib, and seaborn packages
 - This code runs on either Windows or Mac systems (developed on Google Colab)
 
