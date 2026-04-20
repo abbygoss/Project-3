@@ -18,15 +18,16 @@ Main Branch Folders
   - Link to dataset
   - Data Appendix 
 - Scripts
-  - EDA Project 3.ipynb (exploratory data analysis)
+  - eda_project_3.ipynb (exploratory data analysis)
   - Model.py (preprocessing, model training, and evaluation)
 - Output
-  - EDAgraph.png
-  - Confusion Matrix.png
-  - Cleaned Dataset Class Distribution.png
-  - Non-Recyclable Examples.png
-  - Recyclable Examples.png
-  - Training vs. Validation Loss.png
+  - ClassDistributionCleaned.png
+  - ClassDistributionOriginal.png
+  - NonRecyclableExamples.png
+  - RecyclableExamples.png
+  - confusion_matrices.png
+  - loss_curves.png
+  - metrics_comparison.png
 
 ## Analysis Instructions
 
